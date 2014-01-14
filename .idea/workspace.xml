@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" name="Default" comment="" />
+    <list default="true" id="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/ApplicationMain.iphoneos-v7.a" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/ApplicationMain.iphoneos-v7.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/obj/iphoneos-v7/src/PlayerA.o" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/obj/iphoneos-v7/src/PlayerA.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/obj/iphoneos-v7/src/PlayerB.o" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/obj/iphoneos-v7/src/PlayerB.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/flash/bin/SuperSetVolleyball.swf" afterPath="$PROJECT_DIR$/export/flash/bin/SuperSetVolleyball.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM/Contents/Resources/DWARF/SuperSetVolleyball" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM/Contents/Resources/DWARF/SuperSetVolleyball" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/assets/assets_blue_player_png" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/assets/assets_blue_player_png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_blue_player_png" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_blue_player_png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_net_png" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_net_png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/assets/assets_red_player_png" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/assets/assets_red_player_png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_red_player_png" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets/assets_red_player_png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/blue_player.png" afterPath="$PROJECT_DIR$/assets/blue_player.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/lib/armv7/libApplicationMain.a" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/lib/armv7/libApplicationMain.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/red_player.png" afterPath="$PROJECT_DIR$/assets/red_player.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/.build" afterPath="$PROJECT_DIR$/export/.build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ball.hx" afterPath="$PROJECT_DIR$/src/Ball.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/Build.xml" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/Build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/_CodeSignature/CodeResources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM/Contents/Info.plist" afterPath="$PROJECT_DIR$/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM/Contents/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/src/PlayerA.cpp" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/src/PlayerA.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/include/PlayerA.h" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/include/PlayerA.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayerA.hx" afterPath="$PROJECT_DIR$/src/PlayerA.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/src/PlayerB.cpp" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/src/PlayerB.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/include/PlayerB.h" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/haxe/build/Release-iphoneos/include/PlayerB.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayerB.hx" afterPath="$PROJECT_DIR$/src/PlayerB.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/SuperSetVolleyball-Info.plist" afterPath="$PROJECT_DIR$/export/ios/SuperSetVolleyball/SuperSetVolleyball-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.dep" afterPath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.dep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/Build Haxe.build/build-state.dat" afterPath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/Build Haxe.build/build-state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/build-state.dat" afterPath="$PROJECT_DIR$/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/build-state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Super Set Volleyball.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/project.xml" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389670984302" ignored="false" />
     <file path="/Ball.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389719257916" ignored="false" />
     <file path="/PlayState.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389740146134" ignored="false" />
-    <file path="/PlayerA.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389719763662" ignored="false" />
+    <file path="/PlayerA.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389742233775" ignored="false" />
     <file path="/Global.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389719212729" ignored="false" />
     <file path="/Calculations.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389677913107" ignored="false" />
     <file path="/Player.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389686185390" ignored="false" />
     <file path="/StaticObject.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389682788358" ignored="false" />
     <file path="/Net.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389683335368" ignored="false" />
-    <file path="/PlayerB.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389688660037" ignored="false" />
+    <file path="/PlayerB.hx" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389742102953" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d355e42-3ed6-4cc4-9002-f19df0ed3ece" time="1389742654282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,16 +165,16 @@
       <file leaf-file-name="PlayerB.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayerB.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="68" selection-start="662" selection-end="662" vertical-scroll-proportion="-7.8461537">
+            <state line="16" column="35" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ball.hx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Ball.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ball.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="190" selection-end="190" vertical-scroll-proportion="0.19318181">
+            <state line="10" column="38" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -155,10 +189,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerA.hx" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayerA.hx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayerA.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="10" selection-start="3980" selection-end="3980" vertical-scroll-proportion="-12.653846">
+            <state line="15" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.1387663">
               <folding />
             </state>
           </provider>
@@ -171,6 +205,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -180,12 +222,12 @@
         <option value="$PROJECT_DIR$/src/Player.hx" />
         <option value="$PROJECT_DIR$/project.xml" />
         <option value="$PROJECT_DIR$/src/GameClass.hx" />
-        <option value="$PROJECT_DIR$/src/PlayerB.hx" />
         <option value="$PROJECT_DIR$/src/Global.hx" />
-        <option value="$PROJECT_DIR$/src/PlayerA.hx" />
         <option value="$PROJECT_DIR$/src/PlayState.hx" />
         <option value="$PROJECT_DIR$/src/Net.hx" />
         <option value="$PROJECT_DIR$/src/Ball.hx" />
+        <option value="$PROJECT_DIR$/src/PlayerB.hx" />
+        <option value="$PROJECT_DIR$/src/PlayerA.hx" />
       </list>
     </option>
   </component>
@@ -194,7 +236,7 @@
     <option name="width" value="2560" />
     <option name="height" value="878" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -416,27 +458,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17939539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17939539" sideWeight="0.6701847" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -577,20 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayerA.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="10" selection-start="3980" selection-end="3980" vertical-scroll-proportion="-12.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayerB.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="662" selection-end="662" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayState.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="36" selection-start="2706" selection-end="2706" vertical-scroll-proportion="-20.538462">
@@ -607,7 +635,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ball.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="190" selection-end="190" vertical-scroll-proportion="0.19318181">
+        <state line="10" column="38" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayerB.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayerA.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.1387663">
           <folding />
         </state>
       </provider>

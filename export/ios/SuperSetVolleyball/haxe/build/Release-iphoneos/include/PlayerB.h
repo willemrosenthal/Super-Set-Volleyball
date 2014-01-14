@@ -59,12 +59,14 @@ class HXCPP_CLASS_ATTRIBUTES  PlayerB_obj : public ::flixel::FlxSprite_obj{
 
 		virtual Void update( );
 
+		int slide;
 		int spiking;
 		bool jumping;
 		Float ignoreRange;
 		::flixel::util::FlxPoint mouseB;
 		::flixel::util::FlxPoint mouseA;
 		bool mouseDown;
+		Float maxSlide;
 		Float speedMulti;
 		Float maxSpeedMod;
 		Float maxSpeed;

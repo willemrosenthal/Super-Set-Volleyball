@@ -8,7 +8,7 @@ class Ball extends FlxSprite
 {
 
     public var stickToScreen = false;
-    public var friction:Float = -0.8;//-0.87; //-0.8;
+    public var friction:Float = -0.8; //-0.87; //-0.8;
 
     public var maxSpeed:Float = 1000;
     public var maxSpeedMod:Float = 0;

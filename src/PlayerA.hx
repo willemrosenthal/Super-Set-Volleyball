@@ -13,6 +13,7 @@ class PlayerA extends FlxSprite
     public var maxSpeed:Float = 660;
     public var maxSpeedMod:Float = 0;
     public var speedMulti:Float =  2;
+    public var maxSlide:Float =  28;
 
 	private var mouseDown:Bool = false;
     private var mouseA:FlxPoint;
@@ -21,6 +22,7 @@ class PlayerA extends FlxSprite
 
     private var jumping:Bool = false;
     public var spiking:Int = 0;
+    public var slide:Int = 0;
 
 	public function new(X:Float, Y:Float)
 	{
@@ -32,6 +34,7 @@ class PlayerA extends FlxSprite
 		animation.add("stand", [0]);
 		animation.add("jump", [1]);
 		animation.add("hit", [2]);
+		animation.add("slide", [3]);
 
         animation.play("jump");
 
@@ -58,6 +61,8 @@ class PlayerA extends FlxSprite
 
 		if (spiking > 0)
 		    spiking --;
+		if (slide > 0)
+		    slide --;
 
 
         if (Math.abs(velocity.x) < 8)
@@ -76,12 +81,15 @@ class PlayerA extends FlxSprite
             }
 
         if (y > FlxG.worldBounds.y + FlxG.worldBounds.height - height * 0.9 && velocity.y > 0) {
-            velocity.y = 0;
-            velocity.x = 0;
             y = FlxG.height - height * 0.9;
-            if (spiking == 0)
-                animation.play("stand");
-            jumping = false;
+
+            if (slide == 0) {
+                velocity.y = 0;
+                velocity.x = 0;
+                if (spiking == 0)
+                    animation.play("stand");
+                jumping = false;
+                }
             }
         if (velocity.y < 0) {
             if (spiking == 0)
@@ -182,6 +190,13 @@ class PlayerA extends FlxSprite
 	    if (ySpeed > 0)
 	        velocity.y = ySpeed * speedMulti * 2;
 	    else {velocity.y = ySpeed * speedMulti;}
+
+	    if (!jumping && ySpeed > 0) {
+	        velocity.y = 0;
+	        slide = Std.int ( maxSlide * Math.abs(xSpeed/maxSpeed + maxSpeedMod) );
+            animation.play("slide");
+	    }
+
 
 	    /*
 	    if ((velocity.x > 0 && xSpeed > 0) || (velocity.x < 0 && xSpeed < 0))
