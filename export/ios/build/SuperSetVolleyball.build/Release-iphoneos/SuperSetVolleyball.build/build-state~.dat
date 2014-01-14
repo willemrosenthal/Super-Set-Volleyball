@@ -1,0 +1,443 @@
+TSuperSetVolleyball
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist
+cProcessInfoPlistFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist" SuperSetVolleyball/SuperSetVolleyball-Info.plist
+cCpResource SuperSetVolleyball/assets build/Release-iphoneos/SuperSetVolleyball.app/assets
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default.png" SuperSetVolleyball/Default.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png" SuperSetVolleyball/Default-Portrait.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png" SuperSetVolleyball/Default-Portrait@2x.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png" SuperSetVolleyball/Default-Landscape.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png" SuperSetVolleyball/Default@2x.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png" SuperSetVolleyball/Default-Landscape@2x.png
+cCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png" SuperSetVolleyball/Default-568h@2x.png
+cProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth SuperSetVolleyball/SuperSetVolleyball-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball" normal armv7
+cGenerateDSYMFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball"
+cProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision"
+cTouch "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent"
+cCodeSign "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+cValidate "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000052069D7300000000000001A7
+t1376165235
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000052069D7300000000000001E5
+t1376165235
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000052069D74000000000036CDF0
+t1376165236
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052069D7400000000006B1F40
+t1376165236
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052069D7400000000000FE270
+t1376165236
+s1041008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052069D740000000000322700
+t1376165236
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052069D75000000000062AD10
+t1376165237
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000052069D7400000000000015F7
+t1376165236
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000052069D75000000000005C570
+t1376165237
+s378224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000052069D750000000000024190
+t1376165237
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052069D7500000000003596B0
+t1376165237
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000052069D750000000000000E8D
+t1376165237
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052069D7700000000011BCDF0
+t1376165239
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c0000000052069D780000000000001B73
+t1376165240
+s7027
+
+N/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision
+c000000005242A00B0000000000001FEA
+t1380098059
+s8170
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm
+c0000000052D49D580000000000000384
+t1389665624
+s900
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-568h@2x.png
+c0000000052D49CA70000000000001188
+t1389665447
+s4488
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Landscape.png
+c0000000052D49CA70000000000000FB6
+t1389665447
+s4022
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Landscape@2x.png
+c0000000052D49CA70000000000003196
+t1389665447
+s12694
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Portrait.png
+c0000000052D49CA700000000000011D6
+t1389665447
+s4566
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Portrait@2x.png
+c0000000052D49CA700000000000035F2
+t1389665447
+s13810
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default.png
+c0000000052D49CA700000000000005BC
+t1389665447
+s1468
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default@2x.png
+c0000000052D49CA70000000000000EDE
+t1389665447
+s3806
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/SuperSetVolleyball-Prefix.pch
+c0000000052D49CA70000000000000153
+t1389665447
+s339
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/assets
+c0000000052D49CA800000000000017A4
+t1389665448
+s6052
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/PkgInfo
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/SuperSetVolleyball.LinkFileList
+c0000000052D49D5A000000000000009C
+t1389665626
+s156
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent
+t2
+s0
+
+N/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth
+t2
+s0
+
+NSuperSetVolleyball/SuperSetVolleyball-Info.plist
+c0000000052D49CA7000000000000095C
+t1389665447
+s2396
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd507fadad484b841^48fcfadad484b841^---0#1#0#--18"Check dependencies36"EEC0FF6F-C663-4C22-B926-058217BFD875-
+
+CCodeSign "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+s411358427.946050
+e411358428.171571
+r1
+xCodeSign
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign build/Release-iphoneos/SuperSetVolleyball.app2d41f2dbd484b841^e1eb2bdcd484b841^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/0000000000000000^1015"CodeSign build/Release-iphoneos/SuperSetVolleyball.app    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign 76ac79185e016b7c18c09c4e97445dac425db62f "--resource-rules=/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist" --entitlements "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"36"3B43467F-C220-43BF-B210-46C28F828953-
+
+CCompileC build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s411358427.314253
+e411358427.343457
+r1
+xCompileC
+xbuild/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o
+x/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm56b950dbd484b841^35ec57dbd484b841^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm0000000000000000^3841"CompileC build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o SuperSetVolleyball/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-generated-files.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-own-target-headers.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-all-target-headers.hmap" -iquote "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-project-headers.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/DerivedSources/armv7" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/DerivedSources" "-F/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch -MMD -MT dependencies -MF "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.d" --serialize-diagnostics "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.dia" -c "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Classes/Main.mm" -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/Main.o"36"F9E04A17-FE9A-4223-B5F3-DD354679284D-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png" SuperSetVolleyball/Default-568h@2x.png
+s411358426.996604
+e411358427.134753
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png
+xSuperSetVolleyball/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png SuperSetVolleyball/Default-568h@2x.png9c32ffdad484b841^fa7e22dbd484b841^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default-568h@2x.png0000000000000000^787"CopyPNGFile "build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png" "SuperSetVolleyball/Default-568h@2x.png"    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-568h@2x.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-568h@2x.png"36"688BEFD2-BE35-4E32-A8BA-029B7D4DA2FE-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png" SuperSetVolleyball/Default-Landscape.png
+s411358426.996363
+e411358427.134781
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png
+xSuperSetVolleyball/Default-Landscape.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png SuperSetVolleyball/Default-Landscape.png7c26ffdad484b841^308222dbd484b841^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default-Landscape.png0000000000000000^791"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png SuperSetVolleyball/Default-Landscape.png    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Landscape.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape.png"36"3723DE34-CA7A-437B-9004-9D0716128ADA-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png" SuperSetVolleyball/Default-Landscape@2x.png
+s411358426.996371
+e411358427.272589
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png
+xSuperSetVolleyball/Default-Landscape@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png SuperSetVolleyball/Default-Landscape@2x.png2926ffdad484b841^69c745dbd484b841^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default-Landscape@2x.png0000000000000000^807"CopyPNGFile "build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png" "SuperSetVolleyball/Default-Landscape@2x.png"    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Landscape@2x.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Landscape@2x.png"36"7A44D01D-BEA9-445F-ADF6-DF2A5B7BDA10-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png" SuperSetVolleyball/Default-Portrait.png
+s411358426.996339
+e411358427.136449
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png
+xSuperSetVolleyball/Default-Portrait.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png SuperSetVolleyball/Default-Portrait.png2523ffdad484b841^eeed22dbd484b841^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default-Portrait.png0000000000000000^787"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png SuperSetVolleyball/Default-Portrait.png    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Portrait.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait.png"36"210DDDD0-5A78-4B82-938F-9A7BECE2F153-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png" SuperSetVolleyball/Default-Portrait@2x.png
+s411358426.996350
+e411358427.280222
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png
+xSuperSetVolleyball/Default-Portrait@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png SuperSetVolleyball/Default-Portrait@2x.pngc824ffdad484b841^cfbd47dbd484b841^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default-Portrait@2x.png0000000000000000^803"CopyPNGFile "build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png" "SuperSetVolleyball/Default-Portrait@2x.png"    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default-Portrait@2x.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default-Portrait@2x.png"36"5C56A76C-2A15-496E-AA7C-4749BEB5242F-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default.png" SuperSetVolleyball/Default.png
+s411358426.996325
+e411358427.087389
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default.png
+xSuperSetVolleyball/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default.png SuperSetVolleyball/Default.png9624ffdad484b841^8c6916dbd484b841^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default.png0000000000000000^751"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default.png SuperSetVolleyball/Default.png    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default.png"36"6751B6F3-1F27-44A9-A48D-61A8CDC10B3E-
+
+CCopyPNGFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png" SuperSetVolleyball/Default@2x.png
+s411358426.996346
+e411358427.127360
+r1
+xCopyPNGFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png
+xSuperSetVolleyball/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png SuperSetVolleyball/Default@2x.png6727ffdad484b841^849f20dbd484b841^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/Default@2x.png0000000000000000^767"CopyPNGFile "build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png" "SuperSetVolleyball/Default@2x.png"    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/Default@2x.png" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Default@2x.png"36"AD7DB344-F442-4C8C-A1FB-9E50A97F08F7-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist
+s411358426.985196
+e411358426.988789
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plistdb4dfcdad484b841^1421fddad484b841^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist000000000080d041^995"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"36"1822D77A-E1F9-4022-8BFE-BFA16DAB1577-
+
+CCpResource SuperSetVolleyball/assets build/Release-iphoneos/SuperSetVolleyball.app/assets
+s411358426.996313
+e411358427.028273
+r1
+xCpResource
+xSuperSetVolleyball/assets
+xbuild/Release-iphoneos/SuperSetVolleyball.app/assets
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Release-iphoneos/SuperSetVolleyball.app/assetsff23ffdad484b841^c53c07dbd484b841^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/assets000000000080d041^847"CpResource SuperSetVolleyball/assets build/Release-iphoneos/SuperSetVolleyball.app/assets    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/assets" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"36"9F65DDA1-7F7D-42D7-ABFB-D21BD5D0EDEF-
+
+CGenerateDSYMFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball"
+s411358427.830003
+e411358427.894391
+r1
+xGenerateDSYMFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Generate /Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM2a8dd4dbd484b841^f5f5e4dbd484b841^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM000000000080d041^799"GenerateDSYMFile build/Release-iphoneos/SuperSetVolleyball.app.dSYM build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball" -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app.dSYM"36"19131836-899E-4F9E-8DF3-773DB8437B1F-
+
+CLd "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball" normal armv7
+s411358427.350251
+e411358427.823272
+r1
+xLd
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyballa1be59dbd484b841^6ec1d2dbd484b841^---0#0#0#--1588"Ld build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball normal armv7    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv IPHONEOS_DEPLOYMENT_TARGET 5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk "-L/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos" "-L/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/lib/armv7" "-F/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos" -filelist "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/Objects-normal/armv7/SuperSetVolleyball.LinkFileList" -dead_strip -lstd -lregexp -lzlib -lcurl_ssl -lpng -ljpeg -lfreetype -logg -lvorbis -llime -lApplicationMain -stdlib=libc++ -miphoneos-version-min=5 -framework UIKit -framework OpenAL -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework Foundation -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball"36"133A1A45-0163-46B4-AC77-729264F6565E-
+
+CProcessInfoPlistFile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist" SuperSetVolleyball/SuperSetVolleyball-Info.plist
+s411358426.985196
+e411358426.988139
+r1
+xProcessInfoPlistFile
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist
+xSuperSetVolleyball/SuperSetVolleyball-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process SuperSetVolleyball/SuperSetVolleyball-Info.plistcb4dfcdad484b841^7bf6fcdad484b841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/SuperSetVolleyball-Info.plist0000000000000000^975"ProcessInfoPlistFile build/Release-iphoneos/SuperSetVolleyball.app/Info.plist SuperSetVolleyball/SuperSetVolleyball-Info.plist    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility SuperSetVolleyball/SuperSetVolleyball-Info.plist -genpkginfo "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/ResourceRules.plist" -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/Info.plist"36"CB2C5D6A-653D-4A40-94B5-55FEFBF0B79B-
+
+CProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth SuperSetVolleyball/SuperSetVolleyball-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s411358427.288253
+e411358427.307805
+r1
+xProcessPCH++
+x/var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth
+xSuperSetVolleyball/SuperSetVolleyball-Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile SuperSetVolleyball/SuperSetVolleyball-Prefix.pch19e549dbd484b841^f7cc4edbd484b841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/SuperSetVolleyball/SuperSetVolleyball-Prefix.pch0000000000000000^3845"ProcessPCH++ /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth SuperSetVolleyball/SuperSetVolleyball-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-generated-files.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-own-target-headers.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-all-target-headers.hmap" -iquote "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball-project-headers.hmap" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/DerivedSources/armv7" "-I/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/DerivedSources" "-F/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos" -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.dia -c "/Users/willem/Projects/Super Set Volleyball/export/ios/SuperSetVolleyball/SuperSetVolleyball-Prefix.pch" -o /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9y/knsv81hd4nlbz2krb09wn36h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SuperSetVolleyball-Prefix-cqfcjpqhohireibscriugabwdjjd/SuperSetVolleyball-Prefix.pch.d36"8353346F-A56C-40CA-89BE-36725A3EC607-
+
+CProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision"
+s411358427.912284
+e411358427.914657
+r1
+xProcessProductPackaging
+x/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision50aae9dbd484b841^f626eadbd484b841^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision0000000000000000^819"ProcessProductPackaging "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/willem/Library/MobileDevice/Provisioning Profiles/C012F577-05D3-4E3F-AAB3-E4A954D43CC5.mobileprovision" -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/embedded.mobileprovision"36"F0C3A5F7-B5C6-4E60-AACF-1F4208BDE48F-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent"
+s411358427.935427
+e411358427.938104
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection242"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcentca88efdbd484b841^dd26f0dbd484b841^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent000000000080d041^917"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/willem/Projects/Super Set Volleyball/export/ios/build/SuperSetVolleyball.build/Release-iphoneos/SuperSetVolleyball.build/SuperSetVolleyball.xcent"36"EF7882D7-41D2-4DED-8476-989D6D14A58A-
+
+CTouch "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+s411358427.922645
+e411358427.927254
+r1
+xTouch
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app2d3fecdbd484b841^dd5feddbd484b841^---0#0#0#--510"Touch build/Release-iphoneos/SuperSetVolleyball.app    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"36"060B009D-DE28-44E6-A74F-C6BB4019F38F-
+
+CValidate "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"
+s411358428.179568
+e411358428.521566
+r1
+xValidate
+x/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app
+owarning: Icon specified in the Info.plist not found under the top level app wrapper: Icon.png (-19007)
+oUnable to validate your application. - (null)
+o
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyball
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app: valid on disk
+o/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Validate build/Release-iphoneos/SuperSetVolleyball.app9e082edcd484b841^168585dcd484b841^-1401"warning: Icon specified in the Info.plist not found under the top level app wrapper: Icon.png (-19007)Unable to validate your application. - (null)warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/SuperSetVolleyballcodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app: valid on disk/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null4(21%IDEActivityLogMessage2@94" Icon specified in the Info.plist not found under the top level app wrapper: Icon.png (-19007)84"Icon specified in the Info.plist not found under the top level app wrapper: Icon.png411358428#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57411358428#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72411358428#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.411358428#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@121"file://localhost/Users/willem/Projects/Super%20Set%20Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app/0000000000000000^654"Validate build/Release-iphoneos/SuperSetVolleyball.app    cd "/Users/willem/Projects/Super Set Volleyball/export/ios"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications:/usr/local/bin:/Users/willem/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/willem/Projects/Super Set Volleyball/export/ios/build/Release-iphoneos/SuperSetVolleyball.app"36"E4EC1935-8EE3-41A6-BDBF-A099F46C0154-
+
