@@ -87,29 +87,29 @@ Dynamic PlayState_obj::__Create(hx::DynamicArray inArgs)
 
 Void PlayState_obj::netHit( ::Ball ball,::Net net){
 {
-		HX_STACK_PUSH("PlayState::netHit","PlayState.hx",103);
+		HX_STACK_PUSH("PlayState::netHit","PlayState.hx",112);
 		HX_STACK_THIS(this);
 		HX_STACK_ARG(ball,"ball");
 		HX_STACK_ARG(net,"net");
-		HX_STACK_LINE(104)
+		HX_STACK_LINE(113)
 		if (((bool((ball->x > net->x)) && bool((ball->velocity->x < (int)0))))){
-			HX_STACK_LINE(105)
+			HX_STACK_LINE(114)
 			::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(105)
+			HX_STACK_LINE(114)
 			_g->set_x((_g->x * -0.8));
 		}
-		HX_STACK_LINE(106)
+		HX_STACK_LINE(115)
 		if (((bool((ball->x < net->x)) && bool((ball->velocity->x > (int)0))))){
-			HX_STACK_LINE(107)
+			HX_STACK_LINE(116)
 			::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(107)
+			HX_STACK_LINE(116)
 			_g->set_x((_g->x * -0.8));
 		}
-		HX_STACK_LINE(109)
+		HX_STACK_LINE(118)
 		if (((bool((ball->y < net->y)) && bool((ball->velocity->y > (int)0))))){
-			HX_STACK_LINE(110)
+			HX_STACK_LINE(119)
 			::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(110)
+			HX_STACK_LINE(119)
 			_g->set_y((_g->y * -0.8));
 		}
 	}
@@ -121,58 +121,86 @@ HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,netHit,(void))
 
 Void PlayState_obj::touchBall( ::Ball ball,::flixel::FlxSprite player){
 {
-		HX_STACK_PUSH("PlayState::touchBall","PlayState.hx",86);
+		HX_STACK_PUSH("PlayState::touchBall","PlayState.hx",85);
 		HX_STACK_THIS(this);
 		HX_STACK_ARG(ball,"ball");
 		HX_STACK_ARG(player,"player");
-		HX_STACK_LINE(87)
+		HX_STACK_LINE(86)
 		if (((bool(!(::Global_obj::ballLeft)) && bool(::Std_obj::is(player,hx::ClassOf< ::PlayerA >()))))){
-			HX_STACK_LINE(88)
+			HX_STACK_LINE(87)
 			return null();
 		}
-		HX_STACK_LINE(89)
+		HX_STACK_LINE(88)
 		if (((bool(::Global_obj::ballLeft) && bool(::Std_obj::is(player,hx::ClassOf< ::PlayerB >()))))){
-			HX_STACK_LINE(90)
+			HX_STACK_LINE(89)
 			return null();
 		}
-		HX_STACK_LINE(91)
+		HX_STACK_LINE(90)
 		::Global_obj::playerAtouching = (int)2;
+		HX_STACK_LINE(91)
+		{
+			HX_STACK_LINE(91)
+			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
+			HX_STACK_LINE(91)
+			_g->set_x((_g->x * 0.9));
+		}
 		HX_STACK_LINE(92)
 		{
 			HX_STACK_LINE(92)
 			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
 			HX_STACK_LINE(92)
-			_g->set_x((_g->x * 0.95));
-		}
-		HX_STACK_LINE(93)
-		{
-			HX_STACK_LINE(93)
-			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(93)
-			_g->set_y((_g->y * 0.95));
+			_g->set_y((_g->y * 0.9));
 		}
 		HX_STACK_LINE(94)
-		if (((ball->justHit == (int)0))){
+		if (((player->velocity->x < ball->velocity->x))){
 			HX_STACK_LINE(95)
-			{
-				HX_STACK_LINE(95)
-				::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-				HX_STACK_LINE(95)
-				_g->set_x((_g->x * 0.95));
-			}
-			HX_STACK_LINE(96)
-			{
-				HX_STACK_LINE(96)
-				::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-				HX_STACK_LINE(96)
-				_g->set_y((_g->y * 0.95));
-			}
+			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
+			HX_STACK_LINE(95)
+			_g->set_x((_g->x + (int)10));
+		}
+		HX_STACK_LINE(96)
+		if (((player->velocity->x > ball->velocity->x))){
+			HX_STACK_LINE(97)
+			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
+			HX_STACK_LINE(97)
+			_g->set_x((_g->x - (int)10));
 		}
 		HX_STACK_LINE(98)
+		if (((player->velocity->y < ball->velocity->y))){
+			HX_STACK_LINE(99)
+			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
+			HX_STACK_LINE(99)
+			_g->set_y((_g->y + (int)10));
+		}
+		HX_STACK_LINE(100)
+		if (((player->velocity->y > ball->velocity->y))){
+			HX_STACK_LINE(101)
+			::flixel::util::FlxPoint _g = player->velocity;		HX_STACK_VAR(_g,"_g");
+			HX_STACK_LINE(101)
+			_g->set_y((_g->y - (int)10));
+		}
+		HX_STACK_LINE(103)
+		if (((ball->justHit == (int)0))){
+			HX_STACK_LINE(104)
+			{
+				HX_STACK_LINE(104)
+				::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
+				HX_STACK_LINE(104)
+				_g->set_x((_g->x * 0.9));
+			}
+			HX_STACK_LINE(105)
+			{
+				HX_STACK_LINE(105)
+				::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
+				HX_STACK_LINE(105)
+				_g->set_y((_g->y * 0.9));
+			}
+		}
+		HX_STACK_LINE(107)
 		if (((player->velocity->y > (int)800))){
-			HX_STACK_LINE(99)
+			HX_STACK_LINE(108)
 			::flixel::util::FlxPoint _g = ball->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(99)
+			HX_STACK_LINE(108)
 			_g->set_y((_g->y - (int)80));
 		}
 	}
@@ -199,8 +227,6 @@ Void PlayState_obj::update( ){
 			HX_STACK_LINE(82)
 			(::Global_obj::playerAtouching)--;
 		}
-		HX_STACK_LINE(83)
-		::haxe::Log_obj::trace(this->player->velocity->y,hx::SourceInfo(HX_CSTRING("PlayState.hx"),83,HX_CSTRING("PlayState"),HX_CSTRING("update")));
 	}
 return null();
 }

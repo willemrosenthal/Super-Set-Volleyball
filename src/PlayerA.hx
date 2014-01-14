@@ -138,6 +138,9 @@ class PlayerA extends FlxSprite
 	}
 
 
+    private var bxDif:Float;
+    private var byDif:Float;
+    private var bhyp:Float;
     private var xDif:Float;
     private var yDif:Float;
     private var hyp:Float;
@@ -148,6 +151,15 @@ class PlayerA extends FlxSprite
 		yDif = mouseA.y - mouseB.y;
 
 		hyp = Math.sqrt(Math.abs(xDif*xDif) + Math.abs(yDif*yDif));
+
+		// calculate jump speed
+        /*
+		bxDif = x - Global.ballx;
+		byDif = y - Global.bally;
+		bhyp = Math.sqrt(Math.abs(bxDif*bxDif) + Math.abs(byDif*byDif));
+        if (bhyp < 400)
+		    maxSpeedMod = (bhyp - 400) * .9);
+		*/
 
 		if (hyp < ignoreRange)
 			return;

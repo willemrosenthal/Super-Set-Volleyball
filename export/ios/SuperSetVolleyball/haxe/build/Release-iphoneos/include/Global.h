@@ -39,6 +39,8 @@ class HXCPP_CLASS_ATTRIBUTES  Global_obj : public hx::Object{
 		static ::flixel::util::FlxPoint zeroPoint;
 		static ::String music;
 		static bool ballLeft;
+		static Float ballx;
+		static Float bally;
 		static bool mouseEnabled;
 		static int firstTouchId;
 		static int secondTouchId;

@@ -23,7 +23,7 @@ HX_STACK_PUSH("Net::new","Net.hx",10);
 	HX_STACK_LINE(11)
 	super::__construct(X,Y,null());
 	HX_STACK_LINE(12)
-	this->loadGraphic(HX_CSTRING("assets/net.png"),false,false,(int)20,(int)240,null(),null());
+	this->loadGraphic(HX_CSTRING("assets/net.png"),false,false,(int)30,(int)240,null(),null());
 	HX_STACK_LINE(14)
 	{
 		HX_STACK_LINE(14)

@@ -14,6 +14,8 @@ class Global {
 	static public var music:String = "";
 
 	static public var ballLeft:Bool = true;
+	static public var ballx:Float = 0;
+	static public var bally:Float = 0;
 
 	static public var mouseEnabled:Bool;
 	static public var firstTouchId:Int = -1;

@@ -8,7 +8,7 @@ class Ball extends FlxSprite
 {
 
     public var stickToScreen = false;
-    public var friction:Float = -0.87; //-0.8;
+    public var friction:Float = -0.8;//-0.87; //-0.8;
 
     public var maxSpeed:Float = 1000;
     public var maxSpeedMod:Float = 0;
@@ -44,6 +44,9 @@ class Ball extends FlxSprite
 	override public function update():Void
 	{
 		super.update();
+
+		Global.ballx = x;
+		Global.bally = y;
 
 		if (justHit > 0)
 		    justHit --;
@@ -137,11 +140,11 @@ class Ball extends FlxSprite
 	}
 
 	private function addVelocity(xSpeed:Float, ySpeed:Float):Void {
-	    velocity.x = xSpeed * speedMulti;
+	    velocity.x = xSpeed * speedMulti * 1.6;
 
 	    if (ySpeed > 0)
 	        velocity.y = ySpeed * speedMulti * 2;
-	    else {velocity.y = ySpeed * speedMulti;}
+	    else {velocity.y = ySpeed * speedMulti * 1.2;}
 
 	    /*
 	    if ((velocity.x > 0 && xSpeed > 0) || (velocity.x < 0 && xSpeed < 0))

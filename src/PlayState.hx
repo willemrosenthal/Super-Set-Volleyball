@@ -80,7 +80,6 @@ class PlayState extends FlxState
 		FlxG.overlap(ball,net, netHit);
 		if (Global.playerAtouching > 0)
 		    Global.playerAtouching--;
-	    trace(player.velocity.y);
 	}
 
 	private function touchBall(ball:Ball,player:FlxSprite):Void {
@@ -89,11 +88,21 @@ class PlayState extends FlxState
 	    if (Global.ballLeft && Std.is(player, PlayerB))
 	        return;
 	    Global.playerAtouching = 2;
-	    player.velocity.x *= 0.95;
-	    player.velocity.y *= 0.95;
+	    player.velocity.x *= 0.9;
+	    player.velocity.y *= 0.9;
+	    // alt
+	    if (player.velocity.x < ball.velocity.x)
+	        player.velocity.x += 10;
+	    if (player.velocity.x > ball.velocity.x)
+	        player.velocity.x -= 10;
+	    if (player.velocity.y < ball.velocity.y)
+	        player.velocity.y += 10;
+	    if (player.velocity.y > ball.velocity.y)
+	        player.velocity.y -= 10;
+
 	    if (ball.justHit == 0) {
-	        ball.velocity.x *= 0.95;
-	        ball.velocity.y *= 0.95;
+	        ball.velocity.x *= 0.9;
+	        ball.velocity.y *= 0.9;
 	    }
 	    if (player.velocity.y > 800) {
 	        ball.velocity.y -= 80;

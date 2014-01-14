@@ -27,11 +27,11 @@
 
 Void Global_obj::__construct()
 {
-HX_STACK_PUSH("Global::new","Global.hx",60);
+HX_STACK_PUSH("Global::new","Global.hx",62);
 {
-	HX_STACK_LINE(61)
+	HX_STACK_LINE(63)
 	::Global_obj::ballLast = ::flixel::util::FlxPoint_obj::__new(null(),null());
-	HX_STACK_LINE(62)
+	HX_STACK_LINE(64)
 	::Global_obj::ballNow = ::flixel::util::FlxPoint_obj::__new(null(),null());
 }
 ;
@@ -58,6 +58,10 @@ bool Global_obj::ini;
 ::String Global_obj::music;
 
 bool Global_obj::ballLeft;
+
+Float Global_obj::ballx;
+
+Float Global_obj::bally;
 
 bool Global_obj::mouseEnabled;
 
@@ -97,8 +101,8 @@ int Global_obj::playerAtouching;
 
 Void Global_obj::levelStart( ){
 {
-		HX_STACK_PUSH("Global::levelStart","Global.hx",55);
-		HX_STACK_LINE(55)
+		HX_STACK_PUSH("Global::levelStart","Global.hx",57);
+		HX_STACK_LINE(57)
 		::Global_obj::ini = true;
 	}
 return null();
@@ -135,6 +139,8 @@ Dynamic Global_obj::__Field(const ::String &inName,bool inCallProp)
 		break;
 	case 5:
 		if (HX_FIELD_EQ(inName,"music") ) { return music; }
+		if (HX_FIELD_EQ(inName,"ballx") ) { return ballx; }
+		if (HX_FIELD_EQ(inName,"bally") ) { return bally; }
 		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"UIopen") ) { return UIopen; }
@@ -188,6 +194,8 @@ Dynamic Global_obj::__SetField(const ::String &inName,const Dynamic &inValue,boo
 		break;
 	case 5:
 		if (HX_FIELD_EQ(inName,"music") ) { music=inValue.Cast< ::String >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"ballx") ) { ballx=inValue.Cast< Float >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"bally") ) { bally=inValue.Cast< Float >(); return inValue; }
 		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"UIopen") ) { UIopen=inValue.Cast< bool >(); return inValue; }
@@ -237,6 +245,8 @@ static ::String sStaticFields[] = {
 	HX_CSTRING("zeroPoint"),
 	HX_CSTRING("music"),
 	HX_CSTRING("ballLeft"),
+	HX_CSTRING("ballx"),
+	HX_CSTRING("bally"),
 	HX_CSTRING("mouseEnabled"),
 	HX_CSTRING("firstTouchId"),
 	HX_CSTRING("secondTouchId"),
@@ -267,6 +277,8 @@ static void sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Global_obj::zeroPoint,"zeroPoint");
 	HX_MARK_MEMBER_NAME(Global_obj::music,"music");
 	HX_MARK_MEMBER_NAME(Global_obj::ballLeft,"ballLeft");
+	HX_MARK_MEMBER_NAME(Global_obj::ballx,"ballx");
+	HX_MARK_MEMBER_NAME(Global_obj::bally,"bally");
 	HX_MARK_MEMBER_NAME(Global_obj::mouseEnabled,"mouseEnabled");
 	HX_MARK_MEMBER_NAME(Global_obj::firstTouchId,"firstTouchId");
 	HX_MARK_MEMBER_NAME(Global_obj::secondTouchId,"secondTouchId");
@@ -293,6 +305,8 @@ static void sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Global_obj::zeroPoint,"zeroPoint");
 	HX_VISIT_MEMBER_NAME(Global_obj::music,"music");
 	HX_VISIT_MEMBER_NAME(Global_obj::ballLeft,"ballLeft");
+	HX_VISIT_MEMBER_NAME(Global_obj::ballx,"ballx");
+	HX_VISIT_MEMBER_NAME(Global_obj::bally,"bally");
 	HX_VISIT_MEMBER_NAME(Global_obj::mouseEnabled,"mouseEnabled");
 	HX_VISIT_MEMBER_NAME(Global_obj::firstTouchId,"firstTouchId");
 	HX_VISIT_MEMBER_NAME(Global_obj::secondTouchId,"secondTouchId");
@@ -326,6 +340,8 @@ void Global_obj::__boot()
 {
 	music= HX_CSTRING("");
 	ballLeft= true;
+	ballx= (int)0;
+	bally= (int)0;
 	firstTouchId= (int)-1;
 	secondTouchId= (int)-1;
 	waterTiles= Array_obj< int >::__new();

@@ -45,6 +45,9 @@ class HXCPP_CLASS_ATTRIBUTES  PlayerA_obj : public ::flixel::FlxSprite_obj{
 		Float hyp;
 		Float yDif;
 		Float xDif;
+		Float bhyp;
+		Float byDif;
+		Float bxDif;
 		virtual Void slowDown( );
 		Dynamic slowDown_dyn();
 

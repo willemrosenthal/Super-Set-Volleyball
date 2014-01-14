@@ -106,23 +106,25 @@ HX_STACK_PUSH("PlayerB::new","PlayerB.hx",8);
 	this->animation->add(HX_CSTRING("jump"),Array_obj< int >::__new().Add((int)1),null(),null());
 	HX_STACK_LINE(35)
 	this->animation->add(HX_CSTRING("hit"),Array_obj< int >::__new().Add((int)2),null(),null());
-	HX_STACK_LINE(38)
-	this->set_width(((this->get_width() * this->scale->x) * (int)3));
-	HX_STACK_LINE(39)
-	this->set_height(((this->get_height() * this->scale->y) * (int)2));
+	HX_STACK_LINE(37)
+	this->animation->play(HX_CSTRING("jump"),null(),null());
 	HX_STACK_LINE(40)
-	this->offset->set_x((this->get_width() * -0.43));
+	this->set_width(((this->get_width() * this->scale->x) * (int)3));
 	HX_STACK_LINE(41)
-	this->offset->set_y((this->get_height() * -0.15));
+	this->set_height(((this->get_height() * this->scale->y) * (int)2));
+	HX_STACK_LINE(42)
+	this->offset->set_x((this->get_width() * -0.43));
 	HX_STACK_LINE(43)
-	this->set_facing((int)1);
+	this->offset->set_y((this->get_height() * -0.15));
 	HX_STACK_LINE(45)
+	this->set_facing((int)1);
+	HX_STACK_LINE(47)
 	this->scale->set_x((int)2);
-	HX_STACK_LINE(46)
-	this->scale->set_y((int)2);
 	HX_STACK_LINE(48)
+	this->scale->set_y((int)2);
+	HX_STACK_LINE(50)
 	this->acceleration->set_y((int)1000);
-	HX_STACK_LINE(53)
+	HX_STACK_LINE(55)
 	this->set_moves(true);
 }
 ;
@@ -144,19 +146,19 @@ Dynamic PlayerB_obj::__Create(hx::DynamicArray inArgs)
 
 Void PlayerB_obj::addVelocity( Float xSpeed,Float ySpeed){
 {
-		HX_STACK_PUSH("PlayerB::addVelocity","PlayerB.hx",169);
+		HX_STACK_PUSH("PlayerB::addVelocity","PlayerB.hx",171);
 		HX_STACK_THIS(this);
 		HX_STACK_ARG(xSpeed,"xSpeed");
 		HX_STACK_ARG(ySpeed,"ySpeed");
-		HX_STACK_LINE(170)
-		this->velocity->set_x((xSpeed * this->speedMulti));
 		HX_STACK_LINE(172)
+		this->velocity->set_x((xSpeed * this->speedMulti));
+		HX_STACK_LINE(174)
 		if (((ySpeed > (int)0))){
-			HX_STACK_LINE(173)
+			HX_STACK_LINE(175)
 			this->velocity->set_y(((ySpeed * this->speedMulti) * (int)2));
 		}
 		else{
-			HX_STACK_LINE(174)
+			HX_STACK_LINE(176)
 			this->velocity->set_y((ySpeed * this->speedMulti));
 		}
 	}
@@ -168,35 +170,35 @@ HX_DEFINE_DYNAMIC_FUNC2(PlayerB_obj,addVelocity,(void))
 
 Void PlayerB_obj::jump( ){
 {
-		HX_STACK_PUSH("PlayerB::jump","PlayerB.hx",148);
+		HX_STACK_PUSH("PlayerB::jump","PlayerB.hx",150);
 		HX_STACK_THIS(this);
-		HX_STACK_LINE(149)
+		HX_STACK_LINE(151)
 		this->xDif = (this->mouseA->x - this->mouseB->x);
-		HX_STACK_LINE(150)
-		this->yDif = (this->mouseA->y - this->mouseB->y);
 		HX_STACK_LINE(152)
-		this->hyp = ::Math_obj::sqrt((::Math_obj::abs((this->xDif * this->xDif)) + ::Math_obj::abs((this->yDif * this->yDif))));
+		this->yDif = (this->mouseA->y - this->mouseB->y);
 		HX_STACK_LINE(154)
+		this->hyp = ::Math_obj::sqrt((::Math_obj::abs((this->xDif * this->xDif)) + ::Math_obj::abs((this->yDif * this->yDif))));
+		HX_STACK_LINE(156)
 		if (((this->hyp < this->ignoreRange))){
-			HX_STACK_LINE(155)
+			HX_STACK_LINE(157)
 			return null();
 		}
-		HX_STACK_LINE(157)
+		HX_STACK_LINE(159)
 		if (((bool((this->xDif == (int)0)) || bool((this->yDif == (int)0))))){
-			HX_STACK_LINE(158)
-			this->xSpeed = (((this->maxSpeed + this->maxSpeedMod)) * (int)-1);
-			HX_STACK_LINE(159)
-			this->ySpeed = (((this->maxSpeed + this->maxSpeedMod)) * (int)-1);
 			HX_STACK_LINE(160)
-			this->addVelocity(this->xSpeed,this->ySpeed);
+			this->xSpeed = (((this->maxSpeed + this->maxSpeedMod)) * (int)-1);
 			HX_STACK_LINE(161)
+			this->ySpeed = (((this->maxSpeed + this->maxSpeedMod)) * (int)-1);
+			HX_STACK_LINE(162)
+			this->addVelocity(this->xSpeed,this->ySpeed);
+			HX_STACK_LINE(163)
 			return null();
 		}
-		HX_STACK_LINE(164)
-		this->xSpeed = ((this->xDif * ((Float(((this->maxSpeed + this->maxSpeedMod))) / Float(this->hyp)))) * (int)-1);
-		HX_STACK_LINE(165)
-		this->ySpeed = ((this->yDif * ((Float(((this->maxSpeed + this->maxSpeedMod))) / Float(this->hyp)))) * (int)-1);
 		HX_STACK_LINE(166)
+		this->xSpeed = ((this->xDif * ((Float(((this->maxSpeed + this->maxSpeedMod))) / Float(this->hyp)))) * (int)-1);
+		HX_STACK_LINE(167)
+		this->ySpeed = ((this->yDif * ((Float(((this->maxSpeed + this->maxSpeedMod))) / Float(this->hyp)))) * (int)-1);
+		HX_STACK_LINE(168)
 		this->addVelocity(this->xSpeed,this->ySpeed);
 	}
 return null();
@@ -207,20 +209,20 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayerB_obj,jump,(void))
 
 Void PlayerB_obj::slowDown( ){
 {
-		HX_STACK_PUSH("PlayerB::slowDown","PlayerB.hx",135);
+		HX_STACK_PUSH("PlayerB::slowDown","PlayerB.hx",137);
 		HX_STACK_THIS(this);
-		HX_STACK_LINE(136)
+		HX_STACK_LINE(138)
 		if ((this->jumping)){
-			HX_STACK_LINE(137)
+			HX_STACK_LINE(139)
 			::flixel::util::FlxPoint _g = this->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(137)
+			HX_STACK_LINE(139)
 			_g->set_x((_g->x * 0.97));
 		}
-		HX_STACK_LINE(138)
+		HX_STACK_LINE(140)
 		{
-			HX_STACK_LINE(138)
+			HX_STACK_LINE(140)
 			::flixel::util::FlxPoint _g = this->velocity;		HX_STACK_VAR(_g,"_g");
-			HX_STACK_LINE(138)
+			HX_STACK_LINE(140)
 			_g->set_y((_g->y * 0.97));
 		}
 	}
@@ -232,50 +234,50 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayerB_obj,slowDown,(void))
 
 Void PlayerB_obj::fingerControls( ){
 {
-		HX_STACK_PUSH("PlayerB::fingerControls","PlayerB.hx",121);
+		HX_STACK_PUSH("PlayerB::fingerControls","PlayerB.hx",123);
 		HX_STACK_THIS(this);
 		struct _Function_1_1{
 			inline static bool Block( ){
-				HX_STACK_PUSH("*::closure","PlayerB.hx",122);
+				HX_STACK_PUSH("*::closure","PlayerB.hx",124);
 				{
-					HX_STACK_LINE(122)
+					HX_STACK_LINE(124)
 					::flixel::system::input::mouse::FlxMouseButton _this = ::flixel::FlxG_obj::mouse->_leftButton;		HX_STACK_VAR(_this,"_this");
-					HX_STACK_LINE(122)
+					HX_STACK_LINE(124)
 					return (bool((_this->current == (int)2)) || bool((_this->current == (int)-2)));
 				}
 				return null();
 			}
 		};
-		HX_STACK_LINE(122)
+		HX_STACK_LINE(124)
 		if (((bool((bool(_Function_1_1::Block()) && bool(!(this->mouseDown)))) && bool(this->pressRightSide())))){
-			HX_STACK_LINE(123)
-			this->mouseDown = true;
-			HX_STACK_LINE(124)
-			this->mouseA->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
 			HX_STACK_LINE(125)
+			this->mouseDown = true;
+			HX_STACK_LINE(126)
+			this->mouseA->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
+			HX_STACK_LINE(127)
 			this->mouseA->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
 		}
 		struct _Function_1_2{
 			inline static bool Block( ){
-				HX_STACK_PUSH("*::closure","PlayerB.hx",127);
+				HX_STACK_PUSH("*::closure","PlayerB.hx",129);
 				{
-					HX_STACK_LINE(127)
+					HX_STACK_LINE(129)
 					::flixel::system::input::mouse::FlxMouseButton _this = ::flixel::FlxG_obj::mouse->_leftButton;		HX_STACK_VAR(_this,"_this");
-					HX_STACK_LINE(127)
+					HX_STACK_LINE(129)
 					return (bool((_this->current == (int)-1)) || bool((_this->current == (int)-2)));
 				}
 				return null();
 			}
 		};
-		HX_STACK_LINE(127)
+		HX_STACK_LINE(129)
 		if (((bool(_Function_1_2::Block()) && bool(this->pressRightSide())))){
-			HX_STACK_LINE(128)
-			this->mouseDown = false;
-			HX_STACK_LINE(129)
-			this->mouseB->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
 			HX_STACK_LINE(130)
-			this->mouseB->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
+			this->mouseDown = false;
 			HX_STACK_LINE(131)
+			this->mouseB->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
+			HX_STACK_LINE(132)
+			this->mouseB->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
+			HX_STACK_LINE(133)
 			this->jump();
 		}
 	}
@@ -286,14 +288,14 @@ return null();
 HX_DEFINE_DYNAMIC_FUNC0(PlayerB_obj,fingerControls,(void))
 
 bool PlayerB_obj::pressRightSide( ){
-	HX_STACK_PUSH("PlayerB::pressRightSide","PlayerB.hx",115);
+	HX_STACK_PUSH("PlayerB::pressRightSide","PlayerB.hx",117);
 	HX_STACK_THIS(this);
-	HX_STACK_LINE(116)
+	HX_STACK_LINE(118)
 	if (((::flixel::FlxG_obj::game->get_stage()->get_mouseX() > (::flixel::FlxG_obj::game->get_stage()->get_width() * 0.5)))){
-		HX_STACK_LINE(117)
+		HX_STACK_LINE(119)
 		return true;
 	}
-	HX_STACK_LINE(118)
+	HX_STACK_LINE(120)
 	return false;
 }
 
@@ -302,50 +304,50 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayerB_obj,pressRightSide,return )
 
 Void PlayerB_obj::spike( ){
 {
-		HX_STACK_PUSH("PlayerB::spike","PlayerB.hx",101);
+		HX_STACK_PUSH("PlayerB::spike","PlayerB.hx",103);
 		HX_STACK_THIS(this);
 		struct _Function_1_1{
 			inline static bool Block( ){
-				HX_STACK_PUSH("*::closure","PlayerB.hx",102);
+				HX_STACK_PUSH("*::closure","PlayerB.hx",104);
 				{
-					HX_STACK_LINE(102)
+					HX_STACK_LINE(104)
 					::flixel::system::input::mouse::FlxMouseButton _this = ::flixel::FlxG_obj::mouse->_leftButton;		HX_STACK_VAR(_this,"_this");
-					HX_STACK_LINE(102)
+					HX_STACK_LINE(104)
 					return (bool((_this->current == (int)2)) || bool((_this->current == (int)-2)));
 				}
 				return null();
 			}
 		};
-		HX_STACK_LINE(102)
+		HX_STACK_LINE(104)
 		if (((bool(_Function_1_1::Block()) && bool(!(this->mouseDown))))){
-			HX_STACK_LINE(103)
-			this->mouseDown = true;
-			HX_STACK_LINE(104)
-			this->mouseA->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
 			HX_STACK_LINE(105)
+			this->mouseDown = true;
+			HX_STACK_LINE(106)
+			this->mouseA->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
+			HX_STACK_LINE(107)
 			this->mouseA->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
 		}
 		struct _Function_1_2{
 			inline static bool Block( ){
-				HX_STACK_PUSH("*::closure","PlayerB.hx",107);
+				HX_STACK_PUSH("*::closure","PlayerB.hx",109);
 				{
-					HX_STACK_LINE(107)
+					HX_STACK_LINE(109)
 					::flixel::system::input::mouse::FlxMouseButton _this = ::flixel::FlxG_obj::mouse->_leftButton;		HX_STACK_VAR(_this,"_this");
-					HX_STACK_LINE(107)
+					HX_STACK_LINE(109)
 					return (bool((_this->current == (int)-1)) || bool((_this->current == (int)-2)));
 				}
 				return null();
 			}
 		};
-		HX_STACK_LINE(107)
+		HX_STACK_LINE(109)
 		if ((_Function_1_2::Block())){
-			HX_STACK_LINE(108)
-			this->animation->play(HX_CSTRING("hit"),null(),null());
-			HX_STACK_LINE(109)
-			this->mouseB->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
 			HX_STACK_LINE(110)
-			this->mouseB->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
+			this->animation->play(HX_CSTRING("hit"),null(),null());
 			HX_STACK_LINE(111)
+			this->mouseB->set_x(::flixel::FlxG_obj::game->get_stage()->get_mouseX());
+			HX_STACK_LINE(112)
+			this->mouseB->set_y(::flixel::FlxG_obj::game->get_stage()->get_mouseY());
+			HX_STACK_LINE(113)
 			this->spiking = (int)10;
 		}
 	}
@@ -357,75 +359,75 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayerB_obj,spike,(void))
 
 Void PlayerB_obj::update( ){
 {
-		HX_STACK_PUSH("PlayerB::update","PlayerB.hx",58);
+		HX_STACK_PUSH("PlayerB::update","PlayerB.hx",60);
 		HX_STACK_THIS(this);
-		HX_STACK_LINE(59)
-		this->super::update();
 		HX_STACK_LINE(61)
+		this->super::update();
+		HX_STACK_LINE(63)
 		if (((this->spiking > (int)0))){
-			HX_STACK_LINE(62)
+			HX_STACK_LINE(64)
 			(this->spiking)--;
 		}
-		HX_STACK_LINE(65)
+		HX_STACK_LINE(67)
 		if (((::Math_obj::abs(this->velocity->x) < (int)8))){
-			HX_STACK_LINE(66)
+			HX_STACK_LINE(68)
 			this->velocity->set_x((int)0);
 		}
-		HX_STACK_LINE(67)
+		HX_STACK_LINE(69)
 		if (((::Math_obj::abs(this->velocity->y) < (int)8))){
-			HX_STACK_LINE(68)
+			HX_STACK_LINE(70)
 			this->velocity->set_y((int)0);
 		}
-		HX_STACK_LINE(70)
+		HX_STACK_LINE(72)
 		if (((bool((this->x > ((::flixel::FlxG_obj::worldBounds->x + ::flixel::FlxG_obj::worldBounds->width) - this->get_width()))) && bool((this->velocity->x > (int)0))))){
-			HX_STACK_LINE(71)
+			HX_STACK_LINE(73)
 			this->velocity->set_x((int)0);
-			HX_STACK_LINE(72)
+			HX_STACK_LINE(74)
 			this->set_x(((::flixel::FlxG_obj::worldBounds->x + ::flixel::FlxG_obj::worldBounds->width) - this->get_width()));
 		}
-		HX_STACK_LINE(75)
+		HX_STACK_LINE(77)
 		if (((bool((this->x < ((::flixel::FlxG_obj::worldBounds->x + (::flixel::FlxG_obj::worldBounds->width * 0.5)) - (this->get_width() * 0.23)))) && bool((this->velocity->x < (int)0))))){
-			HX_STACK_LINE(76)
+			HX_STACK_LINE(78)
 			this->velocity->set_x((int)0);
-			HX_STACK_LINE(77)
+			HX_STACK_LINE(79)
 			this->set_x(((::flixel::FlxG_obj::worldBounds->x + (::flixel::FlxG_obj::worldBounds->width * 0.5)) - (this->get_width() * 0.23)));
 		}
-		HX_STACK_LINE(80)
+		HX_STACK_LINE(82)
 		if (((bool((this->y > ((::flixel::FlxG_obj::worldBounds->y + ::flixel::FlxG_obj::worldBounds->height) - (this->get_height() * 0.9)))) && bool((this->velocity->y > (int)0))))){
-			HX_STACK_LINE(81)
-			this->velocity->set_y((int)0);
-			HX_STACK_LINE(82)
-			this->velocity->set_x((int)0);
 			HX_STACK_LINE(83)
-			this->set_y((::flixel::FlxG_obj::height - (this->get_height() * 0.9)));
+			this->velocity->set_y((int)0);
 			HX_STACK_LINE(84)
+			this->velocity->set_x((int)0);
+			HX_STACK_LINE(85)
+			this->set_y((::flixel::FlxG_obj::height - (this->get_height() * 0.9)));
+			HX_STACK_LINE(86)
 			if (((this->spiking == (int)0))){
-				HX_STACK_LINE(85)
+				HX_STACK_LINE(87)
 				this->animation->play(HX_CSTRING("stand"),null(),null());
 			}
-			HX_STACK_LINE(86)
+			HX_STACK_LINE(88)
 			this->jumping = false;
 		}
-		HX_STACK_LINE(88)
+		HX_STACK_LINE(90)
 		if (((this->velocity->y < (int)0))){
-			HX_STACK_LINE(89)
+			HX_STACK_LINE(91)
 			if (((this->spiking == (int)0))){
-				HX_STACK_LINE(90)
+				HX_STACK_LINE(92)
 				this->animation->play(HX_CSTRING("jump"),null(),null());
 			}
-			HX_STACK_LINE(91)
+			HX_STACK_LINE(93)
 			this->jumping = true;
 		}
-		HX_STACK_LINE(94)
+		HX_STACK_LINE(96)
 		if (((bool((::Global_obj::playerAtouching > (int)0)) && bool(!(::Global_obj::ballLeft))))){
-			HX_STACK_LINE(95)
+			HX_STACK_LINE(97)
 			this->spike();
 		}
 		else{
-			HX_STACK_LINE(96)
+			HX_STACK_LINE(98)
 			this->fingerControls();
 		}
-		HX_STACK_LINE(97)
+		HX_STACK_LINE(99)
 		this->slowDown();
 	}
 return null();
